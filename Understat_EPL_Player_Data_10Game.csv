@@ -1,0 +1,12 @@
+№,Player,Team,Apps,Min,G,A,xG,xA,xG90,xA90
+1.0,Marcus Rashford,Manchester United,10.0,845.0,8,1,6.85-1.15,0.87-0.13,0.73,0.09
+2.0,Dominic Calvert-Lewin,Everton,10.0,887.0,8,1,7.36-0.64,0.96-0.04,0.75,0.1
+3.0,Pierre-Emerick Aubameyang,Arsenal,10.0,869.0,7,1,4.97-2.03,1.17+0.17,0.52,0.12
+4.0,Sergio Agüero,Manchester City,10.0,614.0,7,1,6.64-0.36,0.87-0.13,0.97,0.13
+5.0,Anthony Martial,Manchester United,10.0,861.0,6,0,3.47-2.53,0.39+0.39,0.36,0.04
+6.0,Mohamed Salah,Liverpool,10.0,897.0,6,2,5.75-0.25,3.87+1.87,0.58,0.39
+7.0,Raúl Jiménez,Wolverhampton Wanderers,10.0,807.0,6,1,7.06+1.06,1.57+0.57,0.79,0.18
+8.0,Son Heung-Min,Tottenham,10.0,875.0,5,3,5.09+0.09,2.82-0.18,0.52,0.29
+9.0,Troy Deeney,Watford,10.0,882.0,5,2,5.63+0.63,2.41+0.41,0.57,0.25
+10.0,Harry Kane,Tottenham,10.0,888.0,5,1,3.52-1.48,1.15+0.15,0.36,0.12
+,,,,,328,239,393.97+65.97,282.56+43.56,,
