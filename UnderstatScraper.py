@@ -46,6 +46,11 @@ print('Getting data for last 3 matches')
 json_player_data = scrape_understat({'league':'EPL', 'season':'2019', 'n_last_matches': '3'})
 three_game_table = pd.DataFrame(json_player_data)
 three_game_df = clean_df(three_game_table,'3wks')
+#Replace Position indentifiers with something more useful
+three_game_df['position'] = three_game_df['position'].str.slice(0,1)
+position_map = {'D':'DEF', 'F':'FWD', 'M':'MID', 'G':'GK', 'S':'FWD'}
+three_game_df = three_game_df.replace({'position': position_map})
+
 
 print('Getting data for the whole season')
 json_player_data = scrape_understat({'league':'EPL', 'season':'2019'})
