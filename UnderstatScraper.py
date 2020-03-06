@@ -34,7 +34,7 @@ def scrape_understat(payload):
 
 def clean_df(player_df, weeks):
     # Get rid of the columns that we don't care about
-    player_df.drop(['yellow_cards','red_cards', 'xGChain','xGBuildup','games','time'], axis=1, inplace=True)
+    #player_df.drop(['yellow_cards','red_cards', 'xGChain','xGBuildup','games','time'], axis=1, inplace=True)
     player_df  = player_df.rename(columns={'goals':'goals_'+weeks,'xG':'xG_'+weeks,'assists':'assists_'+weeks, 'xA':'xA_'+weeks, 'shots':'shots_'+weeks, 'key_passes':
         'key_passes_'+weeks,'npg':'npg_'+weeks,'npxG':'npxG_'+weeks})
     if weeks != '3wks':
